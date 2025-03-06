@@ -1,0 +1,135 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf) format('Opentype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-color: #84E1AD;
+    margin: 0px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+header {
+    text-align: center;
+    background-image: linear-gradient(to bottom, #3ACF7C, #299357, #1A5C38);
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+header > p {
+    text-align: center;
+    text-indent: 0px;
+    margin-bottom: 24px;
+}
+
+header > h1 {
+    color: white;
+    margin-top: 0px;
+    padding-top: 21.440px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+main {
+    width: 820px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.479);
+    background-color: white;
+}
+
+h1  {
+    font-family: 'Android';
+    color: #22613F;
+}
+
+h2 {
+    font-family: 'Android';
+    color: #22613F;
+    background-image: linear-gradient(to right, #C5EBD5, #ffffff);
+    padding-left: 5px;
+}
+
+
+a {
+    color: #739B85;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+    padding-left: 10PX;
+    padding-right: 10px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+footer {
+    background-color: #1A5C38;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+footer > p {
+    margin: 0px 0px 10px 0px;
+    color: white;
+    text-align: center;
+}
+
+nav#menu {
+    text-align: left;
+}
+
+nav > a {
+    margin-left: 15px;
+    margin-right: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+nav > a:hover {
+    text-decoration: dotted, underline;
+}
+
+nav#green {
+    background-color: rgb(20, 75, 20);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+section#partefinal {
+    background-color: #C5EBD6;
+    border-radius: 10px 10px 0px 10px;
+}
+
+section > h3 {
+    background-color: #2FA866;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+}
+
+ul > li {
+    text-decoration: none;
+}
+
+aside > iframe {
+    background-color: #1A5C38;
+}

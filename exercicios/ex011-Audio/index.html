@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html 5</title>
+</head>
+<body>
+
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplismente aumentando e diminuindo o tamanho do seu navegador.</p>
+    
+    <picture>
+        <source media="(max-width:750px )" srcset="img/fotop.png">
+        <source media="(max-width:1050px )" srcset="img/fotom.png">
+        <img src="img/fotog.png" alt="Foto Grande"> 
+    </picture>
+    <!--
+    Note que a tag <source> possui três atributos:
+    ‣ type vai indicar o media type da imagem que usamos (veja mais informações
+    sobre media types no capítulo 10)
+    ‣ srcset vai configurar o nome da imagem que será carregada quando o tamanho
+    indicado for atingido
+    ‣ media indica o tamanho máximo a ser considerado para carregar a imagem
+    indicada no atributo srcset. -->
+
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos aprender a reproduzir audio em html5.</p>
+    <audio src="midia/som.mp3" controls autoplay loop></audio>
+    <!-- MP3 Wav OGG-->
+
+    <audio preload="metadata" controls>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+        <p>Infelizmente seu navegador nao conseque reproduzir audio. <a href="midia/guanacast-33.mp3">clique aqui para baixar o arquivo mp3</a></p>
+    </audio>
+    <!--
+    O atributo preload indica se o áudio será pré-carregado ou não e aceita três
+    valores:
+    ๏ metadata vai carregar apenas as informações sobre o arquivo (tamanho,
+    tempo, informações de direitos, etc)
+    ๏ none não vai carregar absolutamente nada até que o usuário clique no botão
+    play ou um script inicie a reprodução
+    ๏ auto (padrão) vai carregar o arquivo de áudio inteiro assim que a página for
+    carregada, mesmo que o usuário nunca aperte o play
+    ‣ O atributo controls vai apresentar o player na tela. Caso não seja colocado na tag
+    <audio>, o controle será transparente e o usuário não poderá interagir com ele.
+    ‣ O atributo autoplay, quando inserido, vai iniciar a reprodução do áudio assim que
+    a página for carregada.
+    ‣ O atributo loop vai fazer com que-->
+    
+</body>
+</html>

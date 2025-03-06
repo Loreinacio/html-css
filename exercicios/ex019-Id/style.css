@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* 
+    em Html é id     = em css é # (só pode um elemento)
+    em htmlk é class = em css é . (pode varios elementos)
+*/
+
+body {
+    background-color: #75e0978e;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+h1 {
+    color: #119661;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #119661;
+    color: white;
+}
+
+h2 {
+    color: #3B725C;
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
+.basico { color: #3B725C; font-weight: bold;}
+.intermediario { color: #726c3b;}
+.avancado { color: #723b3b;}
+.destaque { background-color: rgba(209, 209, 75, 0.61);}

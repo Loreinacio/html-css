@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Links</title>
+</head>
+<body>
+    
+    <h1>Usando links Externos</h1>
+    <!--Para criar um  link com uma palavra tipo: youtube(dentro dele so au clicar abre a pagina inicial do youtube, se usa o comando<a href="link">Nome</a>)-->
+    <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io" target="_blank" rel="external">repositorio público no GitHub</a></p>
+
+    <!-- target="_blank", abre em uma pagina nova o link rel="external", fala que é um link esterno-->
+    <p>Você também pode acessar o meu <a href="https://www.youtube.com/c/CursoemVídeo" target="_blank" rel="external">Canal gratuito no Youtub</a></p>
+
+    <!--Outros para metros de targent:
+    ‣ _blank vai abrir o link em uma nova janela em branco
+    ‣ _self vai abrir o link na janela ou frame atual (padrão)
+    ‣ _top vai desfazer todos os frames e abrir o destino no navegador completo
+    ‣ _parent similar ao uso do _top em uma referência à janela mãe
+    ‣ nome-do-frame caso esteja usando frames, indicar o nome da janela a abrir 
+    -->
+
+    <h1>Usando links Internos</h1>
+    <!--Quando fazer um link interno não precisa indicar o caminho da pagina, so se esta na mesma pagina do arquivo-->
+    <p>Esta é a primera pagina do saite se você quiser, pode acessar tambem a minha <a href="pag002.html" rel="next" target="_self">Segunda pagina</a></p>
+    <!--
+        Rel
+        Prev: anterior
+        next: Proxima
+        nofollow: não da confiança para esse link
+    -->
+
+    <p>Você pode também acessar a nossa <a href="noticias/pag003.html" target="_self" rel="next">Página de notícias</a></p>
+    <!--Tem que colocar o noticias/ para acessar o arquivo se não não vai-->
+
+    <h1>Links para dowload</h1>
+    <ul>
+        <li><a href="livro/meulivro.pdf" download="meulivro.pdf" type="application/pdf">Baixae o livro em PDF</a></li>
+        <li><a href="livro/meulivro.zip" download="meulivro.zip" type="application/zip">Livro compactado em ZIP</a></li>
+        <!--Para ver os tipos de dawload de cada arquivo va para o site: https://www.iana.org/assignments/media-types/media-types.xhtml-->
+    </ul>
+
+</body>
+</html>
