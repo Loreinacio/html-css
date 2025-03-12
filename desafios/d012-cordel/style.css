@@ -14,7 +14,7 @@
 
 html, body {
     font-family: var(--font1);
-    background-color: darkgrey;
+    background-color: white;
     min-height: 100vh;
 }
 
@@ -59,16 +59,31 @@ section {
     font-size: 3.5vw;
 }
 
-section.imagem {
-    background: black url("imagens/background001.jpg") center center no-repeat fixed; 
-    position: relative;
-    color: white;
+section > p {
+    padding-bottom: 2em;
 }
+
+section.imagem { 
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.363);
+    background-size: cover;
+}
+
 section.imagem > p {
     display: inline-block;
     padding: 5px;
-    background: rgba(0, 0, 0, 0.301) center right no-repeat fixed;
+    background-color: rgba(0, 0, 0, 0.445);
+    text-shadow: 1px 1px 0px black;
 } 
+
+section#joaninha {
+    background: black url("imagens/background001.jpg") center center no-repeat fixed;
+}
+
+section#folhas {
+    background: black url("imagens/background002.jpg") center center no-repeat fixed;
+}
 
 footer {
     background-color: black;
