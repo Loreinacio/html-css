@@ -49,3 +49,12 @@ section#joaninha > p {
     background: rgba(0, 0, 0, 0.411) center right no-repeat fixed;
     color: white;
 } 
+
+footer {
+    background-color: black;
+}
+
+footer > p {
+    color: white;
+    margin: 0px;
+}
